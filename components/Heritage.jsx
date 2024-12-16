@@ -22,16 +22,8 @@ const Heritage = ({ translations }) => {
                 className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
               />
             </div>
-            {/* <div className="text-end m-4">
-              <button className="px-6 py-2 border border-white text-white bg-transparent rounded-full  transition duration-300">
-                {translations.heritage.find_out_more_btn}
-              </button>
-            </div> */}
-            <div className="text-end m-4">
-              <button
-          className="w-fit rounded-2xl py-2 md:py-3 px-4 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base hidden md:inline-block">
-              
-              {/* className="px-6 py-2 border border-white text-white bg-transparent rounded-full transition duration-300 hidden md:inline-block" */}
+            <div className="text-end mt-4">
+              <button className="w-fit rounded-2xl py-2 md:py-3 px-4 md:px-16 border-2 border-white text-white focus:outline-none text-sm md:text-base hidden md:inline-block">
                 {translations.heritage.find_out_more_btn}
               </button>
             </div>
@@ -44,10 +36,10 @@ const Heritage = ({ translations }) => {
               {translations.heritage.description1}
             </p>
             <div className=" max-md:flex w-full  max-md:flex-row-reverse  max-md:gap-8 ">
-              <div className="w-full relative  max-md:mt-16">
+              <div className="w-full relative  max-md:mt-20">
                 <img
                   src="/images/heritage-2.png"
-                  className="w-full relative"
+                  className="w-full min-h-[160px] relative"
                   alt="Screenshot"
                 />
                 <img
@@ -58,7 +50,7 @@ const Heritage = ({ translations }) => {
               <div className="w-full relative order-2 md:order-1 md:hidden">
                 <img
                   src="/images/heritage-1.png"
-                  className="w-full relative"
+                  className="w-full min-h-[160px] relative"
                   alt="Screenshot"
                 />
                 <img
@@ -67,17 +59,10 @@ const Heritage = ({ translations }) => {
                 />
               </div>
             </div>
-            <div className="text-end m-4">
-              <button 
-          className="w-fit rounded-2xl py-2 md:py-3 px-4 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
-              
-              {/* className="px-6 py-2 border border-white text-white bg-transparent rounded-full transition duration-300 block lg:hidden" */}
+            <div className=" flex justify-end px-4 w-full m-4">
+              <button className="w-fit rounded-2xl py-3 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
                 {translations.heritage.find_out_more_btn}
               </button>
-
-              {/* <button className="px-6 py-2 border border-white text-white bg-transparent rounded-full  transition duration-300">
-                {translations.heritage.find_out_more_btn}
-              </button> */}
             </div>
           </div>
         </div>
@@ -95,15 +80,12 @@ const Heritage = ({ translations }) => {
                 className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
               />
             </div>
-            <button 
-                      className="w-fit mt-4 rounded-2xl py-2 md:py-3 px-4 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base hidden md:inline-block">
-
-            {/* className="mt-4 px-6 py-2 border border-white text-white bg-transparent rounded-full transition duration-300 hidden md:inline-block" */}
-              {translations.heritage.find_out_more_btn}
-            </button>
-            {/* <button className="px-6 py-2 border border-white text-white bg-transparent rounded-full mt-6 transition duration-300">
-              {translations.heritage.find_out_more_btn}
-            </button> */}
+            <div className=" w-full text-end">
+              {" "}
+              <button className="w-fit  mt-4 rounded-2xl py-2 md:py-3 px-4 md:px-16 border-2 border-white text-white focus:outline-none text-sm md:text-base hidden md:inline-block">
+                {translations.heritage.find_out_more_btn}
+              </button>
+            </div>
           </div>
           <div className="w-full lg:w-[45%] text-[#FFFFFF] flex flex-col justify-end items-start order-1 md:order-2">
             <h1 className="text-2xl md:text-3xl mb-4 md:mb-6 t w-full max-sm:text-xl">
@@ -113,10 +95,10 @@ const Heritage = ({ translations }) => {
               {translations.heritage.description2}
             </p>
             <div className=" max-md:flex  max-md:flex-row  max-md:gap-8 ">
-              <div className="w-full relative  max-md:mt-16">
+              <div className="w-full relative  max-md:mt-20">
                 <img
                   src="/images/oasis2.png"
-                  className="w-full relative"
+                  className="w-full  min-h-[160px]  relative"
                   alt="Screenshot"
                 />
                 <img
@@ -127,7 +109,7 @@ const Heritage = ({ translations }) => {
               <div className="w-full relative order-2 md:order-1 md:hidden">
                 <img
                   src="/images/oasis1.png"
-                  className="w-full relative"
+                  className="w-full min-h-[160px] relative"
                   alt="Screenshot"
                 />
                 <img
@@ -136,17 +118,10 @@ const Heritage = ({ translations }) => {
                 />
               </div>
             </div>
-            <div className="text-end m-4">
-              <button 
-                        className="w-fit rounded-2xl py-2 md:py-3 px-4 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
-
-              {/* className="px-6 py-2 border border-white text-white bg-transparent rounded-full transition duration-300 block lg:hidden" */}
+            <div className=" w-full mt-4">
+              <button className="w-fit rounded-2xl py-3 mb-5 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
                 {translations.heritage.find_out_more_btn}
               </button>
-
-              {/* <button className="px-6 py-2 border border-white text-white bg-transparent rounded-full  transition duration-300">
-                {translations.heritage.find_out_more_btn}
-              </button> */}
             </div>
           </div>
         </div>

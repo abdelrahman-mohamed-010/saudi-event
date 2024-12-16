@@ -7,9 +7,9 @@ const Dbr = ({ translations }) => {
         src="/images/print.png"
         className="w-full h-[60px] object-cover absolute -top-24 rotate-180 z-50"
         alt="Screenshot"
-      />{" "}
+      />
       <section className="text-white px-4 lg:px-28 pb-20 overflow-hidden mt-16 2xl:px-40">
-        <div className="flex flex-col lg:flex-row-reverse justify-between  gap-12 ">
+        <div className="flex flex-col lg:flex-row-reverse justify-between  gap-12 max-sm:gap-2 ">
           <div className="w-full sm:w-1/2">
             <h1
               dir="rtl"
@@ -20,8 +20,8 @@ const Dbr = ({ translations }) => {
             <p className="text-base text-justify max-md:text-base ">
               {translations.dbr.description}
             </p>
-            <div className=" m-4">
-              <button className="px-4 py-2 border border-gray-300 text-white bg-black rounded-2xl  transition duration-300">
+            <div className=" my-4 w-full">
+              <button className="px-16 py-3 border border-gray-300 text-white bg-black rounded-2xl  transition duration-300">
                 {translations.dbr.find_out_more_btn}
               </button>
             </div>
@@ -29,8 +29,8 @@ const Dbr = ({ translations }) => {
 
           <div className="relative w-full max-sm:w-[60%] gap-3  ">
             <img
-              src="/images/exp.png"
-              className="min-w-[100px] w-full sm:min-w-[653.99px] max-md:h-full  max-md:rounded-3xl"
+              src="/images/dbr.png"
+              className="min-w-[100px] h-full  object-cover w-full sm:min-w-[653.99px] max-md:h-full  max-md:rounded-3xl"
               alt="Adventure Image"
             />
             <img
