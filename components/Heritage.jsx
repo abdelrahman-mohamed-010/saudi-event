@@ -39,7 +39,7 @@ const Heritage = ({ translations }) => {
               <div className="w-full relative  max-md:mt-20">
                 <img
                   src="/images/heritage-2.png"
-                  className="w-full min-h-[160px] relative"
+                  className="w-full min-h-[160px] relative object-cover rounded-xl"
                   alt="Screenshot"
                 />
                 <img
@@ -50,20 +50,25 @@ const Heritage = ({ translations }) => {
               <div className="w-full relative order-2 md:order-1 md:hidden">
                 <img
                   src="/images/heritage-1.png"
-                  className="w-full min-h-[160px] relative"
+                  className="w-full min-h-[160px] relative object-cover rounded-xl"
                   alt="Screenshot"
                 />
                 <img
                   src="/images/heritage-2a.png"
                   className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
                 />
+                <div className=" flex justify-end px-4 w-full m-4">
+                  <button className="w-fit rounded-2xl py-3 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
+                    {translations.heritage.find_out_more_btn}
+                  </button>
+                </div>
               </div>
             </div>
-            <div className=" flex justify-end px-4 w-full m-4">
+            {/* <div className=" flex justify-end px-4 w-full m-4">
               <button className="w-fit rounded-2xl py-3 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
                 {translations.heritage.find_out_more_btn}
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -72,7 +77,7 @@ const Heritage = ({ translations }) => {
             <div className="relative order-2 md:order-1 max-md:hidden">
               <img
                 src="/images/oasis1.png"
-                className="w-full relative"
+                className="w-full relative "
                 alt="Screenshot"
               />
               <img
@@ -81,8 +86,7 @@ const Heritage = ({ translations }) => {
               />
             </div>
             <div className=" w-full text-start">
-              {" "}
-              <button className="w-fit  mt-4 rounded-2xl py-2 md:py-3 px-4 md:px-16 border-2 border-white text-white focus:outline-none text-sm md:text-base hidden md:inline-block">
+              <button className="w-fit  mt-4 rounded-2xl py-2 md:py-3 px-4 md:px-16 border-2 border-white text-white focus:outline-none text-sm md:text-base  hidden md:inline-block">
                 {translations.heritage.find_out_more_btn}
               </button>
             </div>
@@ -98,7 +102,7 @@ const Heritage = ({ translations }) => {
               <div className="w-full relative  max-md:mt-20">
                 <img
                   src="/images/oasis2.png"
-                  className="w-full  min-h-[160px]  relative"
+                  className="w-full min-h-[160px] relative object-cover rounded-xl"
                   alt="Screenshot"
                 />
                 <img
@@ -109,20 +113,25 @@ const Heritage = ({ translations }) => {
               <div className="w-full relative order-2 md:order-1 md:hidden">
                 <img
                   src="/images/oasis1.png"
-                  className="w-full min-h-[160px] relative"
+                  className="w-full min-h-[160px] relative object-cover rounded-xl"
                   alt="Screenshot"
                 />
                 <img
                   src="/images/oasis1a.png"
                   className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none  max-md:hidden"
                 />
+                <div className=" w-full mt-4">
+                  <button className="w-fit rounded-2xl py-3 mb-5 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
+                    {translations.heritage.find_out_more_btn}
+                  </button>
+                </div>
               </div>
             </div>
-            <div className=" w-full mt-4">
+            {/* <div className=" w-full mt-4">
               <button className="w-fit rounded-2xl py-3 mb-5 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
                 {translations.heritage.find_out_more_btn}
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
