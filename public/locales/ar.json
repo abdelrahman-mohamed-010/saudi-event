@@ -13,13 +13,13 @@
       {
         "id": 1,
         "title": "Card 1",
-        "imgSrc": "/images/ar-exp-12.png",
+        "imgSrc": "/images/ar-exp-22.png",
         "description": "Fresh"
       },
       {
         "id": 2,
         "title": "Card 2",
-        "imgSrc": "/images/ar-exp-22.png",
+        "imgSrc": "/images/ar-exp-42.png",
         "description": "Bold"
       },
       {
@@ -31,13 +31,13 @@
       {
         "id": 4,
         "title": "Card 4",
-        "imgSrc": "/images/ar-exp-52.png",
+        "imgSrc": "/images/ar-exp-12.png",
         "description": "Bold"
       },
       {
         "id": 5,
         "title": "Card 5",
-        "imgSrc": "/images/ar-exp-42.png",
+        "imgSrc": "/images/ar-exp-52.png",
         "description": "Bold"
       }
     ]
