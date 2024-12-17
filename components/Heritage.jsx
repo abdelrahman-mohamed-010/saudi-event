@@ -29,7 +29,7 @@ const Heritage = ({ translations }) => {
             </div>
           </div>
           <div className="w-full lg:w-[45%] text-[#FFFFFF] flex flex-col justify-end items-start order-1 md:order-2">
-            <h1 className="text-2xl md:text-3xl mb-4 md:mb-6 t w-full max-sm:text-xl">
+            <h1 className="text-2xl md:text-3xl mb-4 md:mb-6 t w-full max-sm:text-xl text-end">
               {translations.heritage.title}
             </h1>
             <p className="mb-6 md:mb-12 max-sm:text-sm">
@@ -80,7 +80,7 @@ const Heritage = ({ translations }) => {
                 className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
               />
             </div>
-            <div className=" w-full text-end">
+            <div className=" w-full text-start">
               {" "}
               <button className="w-fit  mt-4 rounded-2xl py-2 md:py-3 px-4 md:px-16 border-2 border-white text-white focus:outline-none text-sm md:text-base hidden md:inline-block">
                 {translations.heritage.find_out_more_btn}
