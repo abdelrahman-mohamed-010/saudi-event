@@ -1,6 +1,8 @@
 import React from "react";
 
 const Heritage = ({ translations }) => {
+  const isArabic = translations.type === "ar";
+
   return (
     <div className="relative text-justify">
       <img
@@ -29,7 +31,7 @@ const Heritage = ({ translations }) => {
             </div>
           </div>
           <div className="w-full lg:w-[45%] text-[#FFFFFF] flex flex-col justify-end items-start order-1 md:order-2">
-            <h1 className="text-2xl md:text-3xl mb-4 md:mb-6 t w-full max-sm:text-xl text-end">
+            <h1 className={`text-2xl md:text-3xl mb-4 md:mb-6 t w-full max-sm:text-xl  ${isArabic ? "text-start" :"text-end"}`} >
               {translations.heritage.title}
             </h1>
             <p className="mb-6 md:mb-12 max-sm:text-sm">
