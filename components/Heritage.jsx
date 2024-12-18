@@ -60,7 +60,7 @@ const Heritage = ({ translations }) => {
                   className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none max-w-40 max-md:hidden"
                 />
                 <div className=" flex justify-end px-4 w-full m-4">
-                  <button className="w-fit rounded-2xl py-3 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
+                  <button className="w-fit text-nowrap rounded-2xl py-3 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
                     {translations.heritage.find_out_more_btn}
                   </button>
                 </div>
@@ -123,7 +123,7 @@ const Heritage = ({ translations }) => {
                   className="absolute bottom-0 rounded-xl w-full z-20 object-contain md:max-w-none  max-md:hidden"
                 />
                 <div className=" w-full mt-4">
-                  <button className="w-fit rounded-2xl py-3 mb-5 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
+                  <button className="w-fit text-nowrap rounded-2xl py-3 mb-5 md:py-3 px-8 md:px-6 border-2 border-white text-white focus:outline-none text-sm md:text-base block lg:hidden">
                     {translations.heritage.find_out_more_btn}
                   </button>
                 </div>

@@ -1,6 +1,6 @@
 const Footer = ({ translations }) => {
   return (
-    <section className="text-white px-4 lg:px-28 mt-6">
+    <section className="text-white px-4 lg:px-28 mt-6" dir="rtl">
       <div className="flex justify-center items-center pb-7">
         <img
           src={`/images/footerlogo.png`}
@@ -9,11 +9,12 @@ const Footer = ({ translations }) => {
       </div>
       <div className="flex justify-between items-center pb-7 border-b border-[#FFFFFF] ">
         {/* Left Image */}
-      
-  <img
-          src={`/images/${
-            translations.type === "en" ? "Artboard6@4x-8.png" : "footerlogo.png"
-          }`}
+
+        <img
+          // src="/images/Artboard12.png"
+          src={`${
+            translations.type == "en" ? "/images/Artboard12.png" : "/images/arLogo.png"
+          } `}
           className="w-48 h-auto z-20 object-contain max-md:w-40 max-sm:w-20"
         />
         {/* Icons */}
@@ -55,7 +56,7 @@ const Footer = ({ translations }) => {
 
         {/* Right Image */}
         <img
-          src="/images/Artboard12.png"
+          src="/images/Artboard6@4x-8.png"
           className="w-48 h-auto z-20 object-contain max-md:w-40 max-sm:w-20"
         />
       </div>

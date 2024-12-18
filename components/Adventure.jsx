@@ -14,7 +14,7 @@ const Adventure = ({ translations }) => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-between  gap-12 max-sm:gap-2 max-sm:items-end">
+      <div className="flex flex-col lg:flex-row justify-between  gap-12 max-sm:gap-2 max-sm:items-start" dir="rtl">
         <div className="w-full sm:w-1/2">
           <h1 className="text-3xl mb-12 max-md:mb-6 max-md:text-lg max-sm:font-semibold max-sm:text-xl">
             {translations.adventure.title}
@@ -29,7 +29,7 @@ const Adventure = ({ translations }) => {
           </div>
         </div>
 
-        <div className="relative w-full max-sm:w-[60%] gap-3  ">
+        <div className="relative  w-full max-sm:w-[60%] gap-3  " >
           <img
             src="/images/adv-right.png"
             className="min-w-[100px] w-full sm:min-w-[653.99px] max-md:h-full  max-md:rounded-3xl"
